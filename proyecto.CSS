@@ -51,11 +51,7 @@ section {
 	float: Center;
 }
 
-.Categoria1{
-	
-	float: Center;
 
-}
 
 
     .Destacado{
@@ -74,10 +70,24 @@ section {
 	
 }
 
+.audio{
+	width: 100%;
+	float: Center;
+	margin: 1px auto;
+	height: 20%;
+	border-radius:15px;
+	background-color: #4F84FE;
+	margin: 0px auto !important;
+	padding:0px auto !important;
+	padding-bottom: 3px;
 
+
+font-weight:bold;
+
+}
 .menu{
 	width:100%;
-	background: #ccc;
+	background:coral;
 	list-style: none;
 	margin: 0;
 	padding:0;
@@ -89,7 +99,7 @@ section {
 	
 .menu li a{
 	padding:10px 20px;
-	display: inline-block;
+	
 	color:#fff;
 	
 }
@@ -98,7 +108,7 @@ section {
 	text-decoration:none;
 	padding: 10px 20px;
 	margin: 10px 20px 10px 0px;
-	background:#3BA7E1;
+	background:#2c383f;
 	color:#fff
 	
 	
@@ -106,19 +116,31 @@ section {
 
 .menu li a:hover {
 	
-	background:#ccc;
+	background:rgb(180, 44, 44);
 	
 	
 	color:#000;
 
 }
 	
+.audio{
+
+
+	
+	
+
+}
+
+
+
+
 	h2 {
+		float: center;
 		font-size:26px;
 		text-decoration:none;
 		padding: 10px 20px;
 		margin: 10px 20px 10px 0px;
-		background:#3BA7E1;
+		background:#0b861c2d;
 		color:#fff
 	}
 	h3 {
@@ -128,4 +150,25 @@ section {
 		margin: 10px 20px 10px 0px;
 		background:#3BA7E1;
 		color:#fff
+	}
+
+	.ventana{
+	
+		background: rgb(109, 255, 175);
+		list-style: none;
+		margin: 0;
+		padding:0;
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			position: absolute;
+			top: 15em;
+			right: 0em;
+			width: 12em 
+		
+	}
+	
+
+	
+		
 	}
